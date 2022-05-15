@@ -26,29 +26,26 @@ body {
 .welcome{
    background-color: aquamarine;
    display: flex;
-   
+   justify-content: space-between;
+   padding: 10px;
    
 }
 
 .inspire {
  display: flex;
-flex-direction: row;
- 
-  
-  
-  
-}
-.big{
-    display: flex;
-    justify-content: center;
+ flex-direction: column;
+ align-items: flex-start;
+ flex-wrap: wrap;
+ margin-right: 100px;
+ margin-left: 100px;
 }
 
 .item {
-    width: 50%;
-    height: auto;
-    margin-top: 40px;
-    
-
-    
+  display: flex;
+  width: 200px;
+  height: auto;
+  flex: 1 1 auto;
+  margin-right: 100px;
 }
+
 
